@@ -1,0 +1,26 @@
+{
+  "name": "ahj-popovers",
+  "version": "1.0.0",
+  "description": "Popover widget implemented in vanilla JS for AHJ forms homework",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.1",
+    "jest": "^29.6.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
